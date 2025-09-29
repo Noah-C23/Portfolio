@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1>🔬 Chemistry Quiz</h1>
+
+        <!-- Setup Screen -->
+        <div id="setup-screen">
+            <p>Choose number of questions:</p>
+            <button onclick="startQuiz(5)">5 Questions</button>
+            <button onclick="startQuiz(10)">10 Questions</button>
+            <button onclick="startQuiz(20)">20 Questions</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="hidden">
+            <div id="question-container">
+                <p id="question-text"></p>
+                <div id="choices"></div>
+            </div>
+            <p id="progress"></p>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="hidden">
+            <h2>Quiz Finished!</h2>
+            <p id="final-score"></p>
+            <input type="text" id="player-name" placeholder="Enter your name">
+            <button onclick="saveScore()">Save Score</button>
+            <button onclick="resetQuiz()">Play Again</button>
+        </div>
+
+        <!-- Leaderboard -->
+        <div id="leaderboard">
+            <h2>🏆 Leaderboard</h2>
+            <ol id="leaderboard-list"></ol>
+            <button onclick="resetLeaderboard()">Reset Leaderboard</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

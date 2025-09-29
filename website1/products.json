@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Camo Shorts",
+        "price": 45.00,
+        "category": "Pants",
+        "description": "Comfortable camo-print shorts made with breathable cotton blend.",
+        "image": "product-imgs/1.png"
+    },
+    {
+        "id": 2,
+        "name": "Black Jeans",
+        "price": 65.00,
+        "category": "Pants",
+        "description": "Classic slim-fit black denim jeans, durable and versatile.",
+        "image": "product-imgs/2.png"
+    },
+    {
+        "id": 3,
+        "name": "Black Jorts",
+        "price": 40.00,
+        "category": "Pants",
+        "description": "Trendy black jean shorts with raw hem for a casual look.",
+        "image": "product-imgs/3.png"
+    },
+    {
+        "id": 4,
+        "name": "Graphic Tee White",
+        "price": 30.00,
+        "category": "Shirts",
+        "description": "Cotton short sleeve tee with bold graphic print on the front.",
+        "image": "product-imgs/6.png"
+    },
+    {
+        "id": 5,
+        "name": "Black Essentials Sweatpants",
+        "price": 132.00,
+        "category": "Pants",
+        "description": "Black cotton sweat pants.",
+        "image": "product-imgs/5.png"
+    },
+    {
+        "id": 6,
+        "name": "Graphic Tee Black",
+        "price": 28.00,
+        "category": "Shirts",
+        "description": "Lightweight tee with unique streetwear artwork.",
+        "image": "product-imgs/4.png"
+    },
+    {
+        "id": 7,
+        "name": "New Balance 1906R",
+        "price": 160.00,
+        "category": "Shoes",
+        "description": "High-performance lifestyle sneakers with modern cushioning.",
+        "image": "product-imgs/8.png"
+    },
+    {
+        "id": 8,
+        "name": "Yeezy Slides",
+        "price": 120.00,
+        "category": "Shoes",
+        "description": "Minimalist slip-on slides made with lightweight EVA foam.",
+        "image": "product-imgs/9.png"
+    },
+    {
+        "id": 9,
+        "name": "New Balance 2002R Protection Pack",
+        "price": 180.00,
+        "category": "Shoes",
+        "description": "Premium suede sneakers with rugged cut-out design overlays.",
+        "image": "product-imgs/10.png"
+    },
+    {
+        "id": 10,
+        "name": "Black Graphic Zip-Up",
+        "price": 75.00,
+        "category": "Shirts",
+        "description": "Full-zip hoodie with bold front graphic and kangaroo pocket.",
+        "image": "product-imgs/11.png"
+    },
+    {
+        "id": 11,
+        "name": "White Graphic Long Sleeve",
+        "price": 38.00,
+        "category": "Shirts",
+        "description": "Soft white cotton long sleeve shirt with sleeve print details.",
+        "image": "product-imgs/7.png"
+    },
+    {
+        "id": 12,
+        "name": "Black Graphic Cloth Shorts",
+        "price": 42.00,
+        "category": "Pants",
+        "description": "Relaxed fit black shorts with minimal graphic embroidery.",
+        "image": "product-imgs/12.png"
+    },
+    {
+        "id": 13,
+        "name": "Clear Glasses",
+        "price": 1200.00,
+        "category": "Accessories",
+        "description": "Luxury transparent-frame glasses crafted with designer detail.",
+        "image": "product-imgs/13.png"
+    },
+    {
+        "id": 14,
+        "name": "Leather Belt",
+        "price": 45.00,
+        "category": "Accessories",
+        "description": "Classic leather belt with metal buckle.",
+        "image": "product-imgs/14.png"
+    },
+    {
+        "id": 15,
+        "name": "Running Socks",
+        "price": 12.00,
+        "category": "Accessories",
+        "description": "Breathable cotton socks for daily wear.",
+        "image": "product-imgs/15.png"
+    },
+    {
+        "id": 16,
+        "name": "Puffer Jacket",
+        "price": 95.00,
+        "category": "Jacket",
+        "description": "Stylish Jacket Perfect for winter weather",
+        "image": "product-imgs/16.png"
+    },
+    {
+        "id": 17,
+        "name": "Grey Essentials Hoodie",
+        "price": 70.00,
+        "category": "Shirts",
+        "description": "Grey pullover hoodie with soft fleece inside.",
+        "image": "product-imgs/17.png"
+    },
+    {
+        "id": 18,
+        "name": "New Balance track pants",
+        "price": 20.00,
+        "category": "Pants",
+        "description": "New Balence brand stylish running pants.",
+        "image": "product-imgs/18.png"
+    },
+    {
+        "id": 19,
+        "name": "Canvas Sneakers",
+        "price": 200.00,
+        "category": "Shoes",
+        "description": "Classic low-top canvas sneakers.",
+        "image": "product-imgs/19.png"
+    },
+    {
+        "id": 20,
+        "name": "Leather Wallet",
+        "price": 55.00,
+        "category": "Accessories",
+        "description": "Compact genuine leather wallet for daily use.",
+        "image": "product-imgs/20.png"
+    }
+]

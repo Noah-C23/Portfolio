@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is matter?",
+        "choices": [
+            "Anything that has mass and takes up space",
+            "Anything that produces light",
+            "Only solid objects",
+            "Anything made of energy"
+        ],
+        "answer": "Anything that has mass and takes up space",
+        "category": "Matter and Atoms"
+    },
+    {
+        "question": "Which particle has a positive charge?",
+        "choices": [
+            "Electron",
+            "Neutron",
+            "Proton",
+            "Photon"
+        ],
+        "answer": "Proton",
+        "category": "Atomic Structure"
+    },
+    {
+        "question": "What is the atomic number equal to?",
+        "choices": [
+            "Protons + Neutrons",
+            "Electrons only",
+            "Number of Protons",
+            "Mass of atom"
+        ],
+        "answer": "Number of Protons",
+        "category": "Atomic Structure"
+    },
+    {
+        "question": "Columns on the periodic table are called?",
+        "choices": [
+            "Periods",
+            "Rows",
+            "Groups",
+            "Levels"
+        ],
+        "answer": "Groups",
+        "category": "Periodic Table"
+    },
+    {
+        "question": "Which group is known as noble gases?",
+        "choices": [
+            "Group 1",
+            "Group 7",
+            "Group 18",
+            "Group 2"
+        ],
+        "answer": "Group 18",
+        "category": "Periodic Table"
+    },
+    {
+        "question": "What type of bond is formed by sharing electrons?",
+        "choices": [
+            "Ionic",
+            "Covalent",
+            "Metallic",
+            "Hydrogen"
+        ],
+        "answer": "Covalent",
+        "category": "Chemical Bonds"
+    },
+    {
+        "question": "What law says matter is not created or destroyed?",
+        "choices": [
+            "Law of Energy",
+            "Law of Conservation of Mass",
+            "Newton's Law",
+            "Periodic Law"
+        ],
+        "answer": "Law of Conservation of Mass",
+        "category": "Chemical Reactions"
+    },
+    {
+        "question": "Which of these is an acid?",
+        "choices": [
+            "NaOH",
+            "HCl",
+            "NH3",
+            "CH4"
+        ],
+        "answer": "HCl",
+        "category": "Acids and Bases"
+    },
+    {
+        "question": "What pH value is neutral?",
+        "choices": [
+            "0",
+            "7",
+            "14",
+            "1"
+        ],
+        "answer": "7",
+        "category": "Acids and Bases"
+    },
+    {
+        "question": "Mixtures are...",
+        "choices": [
+            "Chemically bonded substances",
+            "Pure substances",
+            "Physical combinations of substances",
+            "Always solids"
+        ],
+        "answer": "Physical combinations of substances",
+        "category": "Matter and Atoms"
+    }
+]

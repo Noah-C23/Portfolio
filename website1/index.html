@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Visionz - Online Clothing & Accessories Store</title>
+    <meta name="description"
+        content="Visionz Online Store: Shop the latest clothing, shoes, and accessories with easy navigation, search, and secure checkout.">
+
+    <!-- Main CSS should be blocking for fast LCP -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Preload Hero Image (improves LCP) -->
+    <link rel="preload" as="image" href="product-imgs/image.png" fetchpriority="high">
+
+    <!-- Font optimization -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <header>
+        <h1>Visionz</h1>
+
+        <!-- Navigation -->
+        <nav class="nav-bar" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+            </ul>
+        </nav>
+        <button id="nav-toggle" aria-label="Toggle Navigation">☰</button>
+
+        <div class="controls">
+            <input type="text" id="search" placeholder="Search products...">
+            <select id="sort">
+                <option value="default">Sort by</option>
+                <option value="low-high">Price: Low to High</option>
+                <option value="high-low">Price: High to Low</option>
+            </select>
+            <button id="toggle-cart-btn">🛒 Cart (<span id="cart-count-header">0</span>)</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Landing Page -->
+        <section id="landing" aria-label="Welcome Section">
+            <div class="landing-content">
+                <h2>Welcome to Visionz!</h2>
+                <p>Your one-stop online store for clothing, shoes, and accessories. Find your perfect style today.</p>
+
+                <img src="product-imgs/image.png" alt="Fashion display" width="400" height="400" fetchpriority="high">
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="product-grid" aria-label="Product Listings"></section>
+        <div id="pagination" class="pagination"></div>
+    </main>
+
+    <aside id="cart-section" aria-label="Shopping Cart" role="complementary">
+        <div class="cart-header">
+            <h2>Cart (<span id="cart-count-sidebar">0</span> items)</h2>
+            <button id="close-cart-btn">✖</button>
+        </div>
+        <div id="cart"></div>
+        <div id="checkout">
+            <p><span>Subtotal:</span> <strong>$<span id="cart-subtotal">0.00</span></strong></p>
+            <p><span>Shipping:</span> <strong>$<span id="shipping-fee">0.00</span></strong></p>
+            <p><span>Total:</span> <strong>$<span id="cart-total">0.00</span></strong></p>
+            <button id="clear-cart">Clear Cart</button>
+        </div>
+    </aside>
+
+    <div id="cart-overlay"></div>
+    <div id="cart-status" aria-live="polite" class="visually-hidden"></div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
